@@ -1,0 +1,38 @@
+body
+{
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.hi img{
+  width: 200px;
+  height: 200px;
+
+}
+.hi
+{
+  width: 30%;
+  border: 20px;
+  margin-top: 20px;
+  color: white;
+
+}
+.hi a
+{
+  color: #d6d60f;
+  font-size: 20px;
+}
+h1
+{
+  margin-bottom: 20px;
+  color: #d6d60f;
+}
+@media only screen and (max-width: 1000px) {
+  .hi
+{
+  width: 50%;
+  border: 20px;
+  margin-top: 20px;
+
+}
+}
