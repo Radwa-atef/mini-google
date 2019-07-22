@@ -11,7 +11,7 @@ $("#termInp").keyup(function(){
 function getData()
 {
    var req= new XMLHttpRequest();
-   req.open("get","https://newsapi.org/v2/everything?q="+term+"&from=2019-03-21&sortBy=publishedAt&apiKey=c5d7f46ff09f4da8872fbb2e5deb2c53");
+   req.open("get","https://newsapi.org/v2/everything?q="+term+"&from=2019-06-03&sortBy=publishedAt&apiKey=c5d7f46ff09f4da8872fbb2e5deb2c53");
    req.send();
 req.onload=function()
 {
@@ -44,7 +44,7 @@ var er="";
 var getData=new Promise(function(resolved,rejected){
     
     var req= new XMLHttpRequest();
-   req.open("get","https://newsapi.org/v2/everything?q="+term+"&from=2019-05-17&sortBy=publishedAt&apiKey=c5d7f46ff09f4da8872fbb2e5deb2c53");
+   req.open("get","https://newsapi.org/v2/everything?q="+term+"&from=2019-06-03&sortBy=publishedAt&apiKey=c5d7f46ff09f4da8872fbb2e5deb2c53");
    req.send();
 req.onload=function()
 {
